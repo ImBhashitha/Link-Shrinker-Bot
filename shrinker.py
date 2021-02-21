@@ -30,7 +30,7 @@ def link_handler(update, context):
 	data = req.json()
 	short_link = data["shortenedUrl"]
 	if short_link:
-	    update.message.reply_text(f" *Here is your short* [link]({short_link})!\n\n*You can copy this link too!*\n`{short_link}`\n\n*Tnx for using me!*\n*Made with ❤ by @MudabbirulSaad*\n*Bot maintained by {MAINTAINER}*", parse_mode="Markdown")
+	    update.message.reply_text(f" *Here is your short* [link]({short_link})!\n\n*You can copy this link too!*\n`{short_link}`\n\n*Tnx for using me!*\n*Made with ❤ by 🇱🇰*\n*Bot maintained by {MAINTAINER}*", parse_mode="Markdown")
 	else:
 	    update.message.reply_text("*You entered invalid url!*", parse_mode="Markdown")
 
