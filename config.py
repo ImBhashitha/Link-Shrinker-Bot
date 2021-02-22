@@ -4,7 +4,6 @@ class Config(object):
 	BOT_TOKEN = "1487428803:AAGKxaPeqQj_Mi44CExyUUMrtQSBPNUtKPg"
 
 class Text(object):
-	WELCOME_TEXT = "*Hey {} 
-If you need help 🙄 Just click* /help"
+	WELCOME_TEXT = "*Hey If you need help 🙄 Just click* /help"
 	HELP_TEXT = "*Sent me any long link!*\n*Im sort it`"
 	MAINTAINER = "@P_BHASHITHA"
